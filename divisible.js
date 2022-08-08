@@ -1,0 +1,21 @@
+/*
+1. show output from : 1 to 50;
+2. if the numbe is devisible by 3 then instead of the numbe show "foo"
+3. if the numbe is devisible by  then instead of the numbe show "bar"
+4. if the numbe is devisible by both 3 and 5 then instead of the numbe show "foobar"
+*/ 
+
+for( i = 1; i <= 50; i++){
+    if( i % 3 == 0 && i % 5 == 0){
+        console.log("foobar");
+    }
+    else if( i % 3 == 0){
+        console.log("foo");
+    }
+    else if( i % 5 == 0){
+        console.log("bar")
+    }
+    else{
+        console.log(i);
+    }
+}
